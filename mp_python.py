@@ -20,9 +20,6 @@ def mult(start, extra, return_dict):
     return_dict[start] = output
 
 def run_it():
-    """
-    We calculate factorial(n)
-    """
     manager = Manager()
     return_dict = manager.dict()
     processes = []
