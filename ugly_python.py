@@ -7,7 +7,6 @@ def run_it():
     for i in range(0, n):
         output = output + 'a'
 
-
 if __name__ == "__main__":
     start = default_timer()
     run_it()

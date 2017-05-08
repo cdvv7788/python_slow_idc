@@ -7,7 +7,7 @@ import functools
 num_threads = 4
 n = 10000000000
 
-def mult(start, extra, return_dict):
+def mult(start, extra, return_dict, i):
     """
     Gets the start number and the number of subsequent values
     """
@@ -16,8 +16,8 @@ def mult(start, extra, return_dict):
     else:
         upper_bound = n + 1
     values = range(start, upper_bound)
-    output = 'a'*(start - upper_bound)
-    return_dict[start] = output
+    output = 'a'*(upper_bound - start)
+    return_dict[i] = ''
 
 def run_it():
     manager = Manager()
@@ -30,7 +30,7 @@ def run_it():
             limit = -1
         else:
             limit = n_split
-        p = Process(target=mult, args=(n_split*i + 1, limit, return_dict))
+        p = Process(target=mult, args=(n_split*i + 1, limit, return_dict, i))
         p.start()
         processes.append(p)
     for i in processes:

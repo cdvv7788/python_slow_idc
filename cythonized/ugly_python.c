@@ -3,7 +3,7 @@
 /* BEGIN: Cython Metadata
 {
     "distutils": {},
-    "module_name": "python_lento_idc.cythonized.ugly_python"
+    "module_name": "ugly_python"
 }
 END: Cython Metadata */
 
@@ -434,8 +434,8 @@ static CYTHON_INLINE float __PYX_NAN() {
   #endif
 #endif
 
-#define __PYX_HAVE__python_lento_idc__cythonized__ugly_python
-#define __PYX_HAVE_API__python_lento_idc__cythonized__ugly_python
+#define __PYX_HAVE__ugly_python
+#define __PYX_HAVE_API__ugly_python
 #ifdef _OPENMP
 #include <omp.h>
 #endif /* _OPENMP */
@@ -631,7 +631,7 @@ static const char *__pyx_filename;
 
 
 static const char *__pyx_f[] = {
-  "python_lento_idc/cythonized/ugly_python.pyx",
+  "ugly_python.pyx",
 };
 
 /*--- Type declarations ---*/
@@ -763,16 +763,16 @@ static int __Pyx_check_binary_version(void);
 static int __Pyx_InitStrings(__Pyx_StringTabEntry *t);
 
 
-/* Module declarations from 'python_lento_idc.cythonized.ugly_python' */
-static int __pyx_v_16python_lento_idc_10cythonized_11ugly_python_n;
-#define __Pyx_MODULE_NAME "python_lento_idc.cythonized.ugly_python"
-int __pyx_module_is_main_python_lento_idc__cythonized__ugly_python = 0;
+/* Module declarations from 'ugly_python' */
+#define __Pyx_MODULE_NAME "ugly_python"
+int __pyx_module_is_main_ugly_python = 0;
 
-/* Implementation of 'python_lento_idc.cythonized.ugly_python' */
+/* Implementation of 'ugly_python' */
 static PyObject *__pyx_builtin_range;
 static const char __pyx_k_[] = "";
 static const char __pyx_k_a[] = "a";
 static const char __pyx_k_i[] = "i";
+static const char __pyx_k_n[] = "n";
 static const char __pyx_k_main[] = "__main__";
 static const char __pyx_k_test[] = "__test__";
 static const char __pyx_k_range[] = "range";
@@ -780,9 +780,9 @@ static const char __pyx_k_import[] = "__import__";
 static const char __pyx_k_output[] = "output";
 static const char __pyx_k_run_it[] = "run_it";
 static const char __pyx_k_timeit[] = "timeit";
+static const char __pyx_k_ugly_python[] = "ugly_python";
 static const char __pyx_k_default_timer[] = "default_timer";
 static const char __pyx_k_home_cristian_hobby_pythoncali[] = "/home/cristian/hobby/pythoncali/python_lento_idc/cythonized/ugly_python.pyx";
-static const char __pyx_k_python_lento_idc_cythonized_ugly[] = "python_lento_idc.cythonized.ugly_python";
 static PyObject *__pyx_kp_s_;
 static PyObject *__pyx_n_s_a;
 static PyObject *__pyx_n_s_default_timer;
@@ -790,39 +790,41 @@ static PyObject *__pyx_kp_s_home_cristian_hobby_pythoncali;
 static PyObject *__pyx_n_s_i;
 static PyObject *__pyx_n_s_import;
 static PyObject *__pyx_n_s_main;
+static PyObject *__pyx_n_s_n;
 static PyObject *__pyx_n_s_output;
-static PyObject *__pyx_n_s_python_lento_idc_cythonized_ugly;
 static PyObject *__pyx_n_s_range;
 static PyObject *__pyx_n_s_run_it;
 static PyObject *__pyx_n_s_test;
 static PyObject *__pyx_n_s_timeit;
-static PyObject *__pyx_pf_16python_lento_idc_10cythonized_11ugly_python_run_it(CYTHON_UNUSED PyObject *__pyx_self); /* proto */
+static PyObject *__pyx_n_s_ugly_python;
+static PyObject *__pyx_pf_11ugly_python_run_it(CYTHON_UNUSED PyObject *__pyx_self); /* proto */
 static PyObject *__pyx_tuple__2;
 static PyObject *__pyx_codeobj__3;
 
-/* "python_lento_idc/cythonized/ugly_python.pyx":6
- * n = 10000000000
+/* "ugly_python.pyx":4
+ * 
  * 
  * def run_it():             # <<<<<<<<<<<<<<
- *     cdef int i
- *     cdef str output
+ *     cdef int n
+ *     n = 10  # Still ugly, but can handle 10
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_16python_lento_idc_10cythonized_11ugly_python_1run_it(PyObject *__pyx_self, CYTHON_UNUSED PyObject *unused); /*proto*/
-static PyMethodDef __pyx_mdef_16python_lento_idc_10cythonized_11ugly_python_1run_it = {"run_it", (PyCFunction)__pyx_pw_16python_lento_idc_10cythonized_11ugly_python_1run_it, METH_NOARGS, 0};
-static PyObject *__pyx_pw_16python_lento_idc_10cythonized_11ugly_python_1run_it(PyObject *__pyx_self, CYTHON_UNUSED PyObject *unused) {
+static PyObject *__pyx_pw_11ugly_python_1run_it(PyObject *__pyx_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static PyMethodDef __pyx_mdef_11ugly_python_1run_it = {"run_it", (PyCFunction)__pyx_pw_11ugly_python_1run_it, METH_NOARGS, 0};
+static PyObject *__pyx_pw_11ugly_python_1run_it(PyObject *__pyx_self, CYTHON_UNUSED PyObject *unused) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("run_it (wrapper)", 0);
-  __pyx_r = __pyx_pf_16python_lento_idc_10cythonized_11ugly_python_run_it(__pyx_self);
+  __pyx_r = __pyx_pf_11ugly_python_run_it(__pyx_self);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_16python_lento_idc_10cythonized_11ugly_python_run_it(CYTHON_UNUSED PyObject *__pyx_self) {
+static PyObject *__pyx_pf_11ugly_python_run_it(CYTHON_UNUSED PyObject *__pyx_self) {
+  int __pyx_v_n;
   CYTHON_UNUSED int __pyx_v_i;
   PyObject *__pyx_v_output = 0;
   PyObject *__pyx_r = NULL;
@@ -832,7 +834,16 @@ static PyObject *__pyx_pf_16python_lento_idc_10cythonized_11ugly_python_run_it(C
   PyObject *__pyx_t_3 = NULL;
   __Pyx_RefNannySetupContext("run_it", 0);
 
-  /* "python_lento_idc/cythonized/ugly_python.pyx":9
+  /* "ugly_python.pyx":6
+ * def run_it():
+ *     cdef int n
+ *     n = 10  # Still ugly, but can handle 10             # <<<<<<<<<<<<<<
+ *     cdef int i
+ *     cdef str output
+ */
+  __pyx_v_n = 10;
+
+  /* "ugly_python.pyx":9
  *     cdef int i
  *     cdef str output
  *     output = ''             # <<<<<<<<<<<<<<
@@ -842,17 +853,17 @@ static PyObject *__pyx_pf_16python_lento_idc_10cythonized_11ugly_python_run_it(C
   __Pyx_INCREF(__pyx_kp_s_);
   __pyx_v_output = __pyx_kp_s_;
 
-  /* "python_lento_idc/cythonized/ugly_python.pyx":10
+  /* "ugly_python.pyx":10
  *     cdef str output
  *     output = ''
  *     for i in range(0, n):             # <<<<<<<<<<<<<<
  *         output = output + 'a'
  */
-  __pyx_t_1 = __pyx_v_16python_lento_idc_10cythonized_11ugly_python_n;
+  __pyx_t_1 = __pyx_v_n;
   for (__pyx_t_2 = 0; __pyx_t_2 < __pyx_t_1; __pyx_t_2+=1) {
     __pyx_v_i = __pyx_t_2;
 
-    /* "python_lento_idc/cythonized/ugly_python.pyx":11
+    /* "ugly_python.pyx":11
  *     output = ''
  *     for i in range(0, n):
  *         output = output + 'a'             # <<<<<<<<<<<<<<
@@ -863,12 +874,12 @@ static PyObject *__pyx_pf_16python_lento_idc_10cythonized_11ugly_python_run_it(C
     __pyx_t_3 = 0;
   }
 
-  /* "python_lento_idc/cythonized/ugly_python.pyx":6
- * n = 10000000000
+  /* "ugly_python.pyx":4
+ * 
  * 
  * def run_it():             # <<<<<<<<<<<<<<
- *     cdef int i
- *     cdef str output
+ *     cdef int n
+ *     n = 10  # Still ugly, but can handle 10
  */
 
   /* function exit code */
@@ -876,7 +887,7 @@ static PyObject *__pyx_pf_16python_lento_idc_10cythonized_11ugly_python_run_it(C
   goto __pyx_L0;
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_3);
-  __Pyx_AddTraceback("python_lento_idc.cythonized.ugly_python.run_it", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("ugly_python.run_it", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_output);
@@ -915,12 +926,13 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_i, __pyx_k_i, sizeof(__pyx_k_i), 0, 0, 1, 1},
   {&__pyx_n_s_import, __pyx_k_import, sizeof(__pyx_k_import), 0, 0, 1, 1},
   {&__pyx_n_s_main, __pyx_k_main, sizeof(__pyx_k_main), 0, 0, 1, 1},
+  {&__pyx_n_s_n, __pyx_k_n, sizeof(__pyx_k_n), 0, 0, 1, 1},
   {&__pyx_n_s_output, __pyx_k_output, sizeof(__pyx_k_output), 0, 0, 1, 1},
-  {&__pyx_n_s_python_lento_idc_cythonized_ugly, __pyx_k_python_lento_idc_cythonized_ugly, sizeof(__pyx_k_python_lento_idc_cythonized_ugly), 0, 0, 1, 1},
   {&__pyx_n_s_range, __pyx_k_range, sizeof(__pyx_k_range), 0, 0, 1, 1},
   {&__pyx_n_s_run_it, __pyx_k_run_it, sizeof(__pyx_k_run_it), 0, 0, 1, 1},
   {&__pyx_n_s_test, __pyx_k_test, sizeof(__pyx_k_test), 0, 0, 1, 1},
   {&__pyx_n_s_timeit, __pyx_k_timeit, sizeof(__pyx_k_timeit), 0, 0, 1, 1},
+  {&__pyx_n_s_ugly_python, __pyx_k_ugly_python, sizeof(__pyx_k_ugly_python), 0, 0, 1, 1},
   {0, 0, 0, 0, 0, 0, 0}
 };
 static int __Pyx_InitCachedBuiltins(void) {
@@ -934,17 +946,17 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__Pyx_InitCachedConstants", 0);
 
-  /* "python_lento_idc/cythonized/ugly_python.pyx":6
- * n = 10000000000
+  /* "ugly_python.pyx":4
+ * 
  * 
  * def run_it():             # <<<<<<<<<<<<<<
- *     cdef int i
- *     cdef str output
+ *     cdef int n
+ *     n = 10  # Still ugly, but can handle 10
  */
-  __pyx_tuple__2 = PyTuple_Pack(2, __pyx_n_s_i, __pyx_n_s_output); if (unlikely(!__pyx_tuple__2)) __PYX_ERR(0, 6, __pyx_L1_error)
+  __pyx_tuple__2 = PyTuple_Pack(3, __pyx_n_s_n, __pyx_n_s_i, __pyx_n_s_output); if (unlikely(!__pyx_tuple__2)) __PYX_ERR(0, 4, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__2);
   __Pyx_GIVEREF(__pyx_tuple__2);
-  __pyx_codeobj__3 = (PyObject*)__Pyx_PyCode_New(0, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__2, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_cristian_hobby_pythoncali, __pyx_n_s_run_it, 6, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__3)) __PYX_ERR(0, 6, __pyx_L1_error)
+  __pyx_codeobj__3 = (PyObject*)__Pyx_PyCode_New(0, 0, 3, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__2, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_cristian_hobby_pythoncali, __pyx_n_s_run_it, 4, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__3)) __PYX_ERR(0, 4, __pyx_L1_error)
   __Pyx_RefNannyFinishContext();
   return 0;
   __pyx_L1_error:;
@@ -1025,14 +1037,14 @@ PyMODINIT_FUNC PyInit_ugly_python(void)
   #if PY_MAJOR_VERSION < 3 && (__PYX_DEFAULT_STRING_ENCODING_IS_ASCII || __PYX_DEFAULT_STRING_ENCODING_IS_DEFAULT)
   if (__Pyx_init_sys_getdefaultencoding_params() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
-  if (__pyx_module_is_main_python_lento_idc__cythonized__ugly_python) {
+  if (__pyx_module_is_main_ugly_python) {
     if (PyObject_SetAttrString(__pyx_m, "__name__", __pyx_n_s_main) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   }
   #if PY_MAJOR_VERSION >= 3
   {
     PyObject *modules = PyImport_GetModuleDict(); if (unlikely(!modules)) __PYX_ERR(0, 1, __pyx_L1_error)
-    if (!PyDict_GetItemString(modules, "python_lento_idc.cythonized.ugly_python")) {
-      if (unlikely(PyDict_SetItemString(modules, "python_lento_idc.cythonized.ugly_python", __pyx_m) < 0)) __PYX_ERR(0, 1, __pyx_L1_error)
+    if (!PyDict_GetItemString(modules, "ugly_python")) {
+      if (unlikely(PyDict_SetItemString(modules, "ugly_python", __pyx_m) < 0)) __PYX_ERR(0, 1, __pyx_L1_error)
     }
   }
   #endif
@@ -1052,10 +1064,10 @@ PyMODINIT_FUNC PyInit_ugly_python(void)
   if (__Pyx_patch_abc() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
 
-  /* "python_lento_idc/cythonized/ugly_python.pyx":1
+  /* "ugly_python.pyx":1
  * from timeit import default_timer             # <<<<<<<<<<<<<<
  * 
- * cdef int n
+ * 
  */
   __pyx_t_1 = PyList_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
@@ -1071,31 +1083,22 @@ PyMODINIT_FUNC PyInit_ugly_python(void)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "python_lento_idc/cythonized/ugly_python.pyx":4
+  /* "ugly_python.pyx":4
  * 
- * cdef int n
- * n = 10000000000             # <<<<<<<<<<<<<<
- * 
- * def run_it():
- */
-  __pyx_v_16python_lento_idc_10cythonized_11ugly_python_n = 0x2540BE400;
-
-  /* "python_lento_idc/cythonized/ugly_python.pyx":6
- * n = 10000000000
  * 
  * def run_it():             # <<<<<<<<<<<<<<
- *     cdef int i
- *     cdef str output
+ *     cdef int n
+ *     n = 10  # Still ugly, but can handle 10
  */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_16python_lento_idc_10cythonized_11ugly_python_1run_it, NULL, __pyx_n_s_python_lento_idc_cythonized_ugly); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 6, __pyx_L1_error)
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_11ugly_python_1run_it, NULL, __pyx_n_s_ugly_python); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 4, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_run_it, __pyx_t_2) < 0) __PYX_ERR(0, 6, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_run_it, __pyx_t_2) < 0) __PYX_ERR(0, 4, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "python_lento_idc/cythonized/ugly_python.pyx":1
+  /* "ugly_python.pyx":1
  * from timeit import default_timer             # <<<<<<<<<<<<<<
  * 
- * cdef int n
+ * 
  */
   __pyx_t_2 = PyDict_New(); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
@@ -1110,11 +1113,11 @@ PyMODINIT_FUNC PyInit_ugly_python(void)
   __Pyx_XDECREF(__pyx_t_2);
   if (__pyx_m) {
     if (__pyx_d) {
-      __Pyx_AddTraceback("init python_lento_idc.cythonized.ugly_python", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("init ugly_python", __pyx_clineno, __pyx_lineno, __pyx_filename);
     }
     Py_DECREF(__pyx_m); __pyx_m = 0;
   } else if (!PyErr_Occurred()) {
-    PyErr_SetString(PyExc_ImportError, "init python_lento_idc.cythonized.ugly_python");
+    PyErr_SetString(PyExc_ImportError, "init ugly_python");
   }
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();

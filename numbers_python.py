@@ -1,5 +1,13 @@
 from timeit import default_timer
-from new_ugly_python import run_it
+
+n = 100000000
+
+def run_it():
+    output = 0
+    for i in range(0, n):
+        output += i
+        if output >= 1000:
+            output = 0
 
 if __name__ == "__main__":
     start = default_timer()

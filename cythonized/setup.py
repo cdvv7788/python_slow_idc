@@ -3,5 +3,5 @@ from Cython.Build import cythonize
 
 setup(
   name = 'Ugly made slightly prettier',
-  ext_modules = cythonize("ugly_python.pyx"),
+  ext_modules = cythonize("new_ugly_python.pyx"),
 )
